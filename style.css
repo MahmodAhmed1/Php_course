@@ -1,0 +1,82 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+/* Style the radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 8px 0;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #1e21ca;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #02047a;
+}
+
+
+/* Style the form labels */
+label {
+    font-weight: bold;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the container */
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Style the form title */
+h2 {
+    text-align: center;
+}
+
+
+
+
+/* Style the form error message */
+.error {
+    color: red;
+}
+
+/* Style the success message */
+.success {
+    color: green;
+}
