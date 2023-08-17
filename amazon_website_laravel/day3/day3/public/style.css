@@ -1,0 +1,224 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 2px;
+  }
+
+  .container {
+
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Navigation */
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 2px;
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .nav-items {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-items li {
+    margin-right: 20px;
+  }
+
+  .nav-items li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: 18px;
+  }
+  .nav-items li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+  }
+
+
+  /* Form */
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 100px;
+  }
+
+  input[type="text"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .app_input{
+    width: 103%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="file"]{
+    padding: 10px 20px;
+    background-color: #646464;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #555;
+  }
+
+  /* Table styles */
+  table {
+    border-collapse: collapse;
+    margin: 50px auto 0 auto;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .back_button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .back_a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .back_button:hover,
+  .back_a:hover {
+    background-color: #99999e;
+  }
+
+  .editpButton,
+  .addButton{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    background-color: rgb(49, 84, 222);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .editpButton:hover,
+  .addButton:hover {
+    background-color: rgb(8, 28, 110);
+    color: white;
+  }
+
+
+  .editButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    background-color: rgb(51, 215, 14);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .editButton:hover {
+    background-color: rgb(23, 123, 0);
+  }
+
+  .deleteButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .deleteButton:hover {
+    background-color: #b30000;
+  }
+
+  /* Style the form error message */
+  .error {
+    color: red;
+  }
+
+  /* Style the success message */
+  .success {
+    color: green;
+  }
+
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+  }
+
+
