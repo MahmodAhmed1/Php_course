@@ -24,7 +24,7 @@
         </tr>
         <?php
             // Set up a connection to the MySQL database
-            $servername = "localhost:4306";
+            $servername = "localhost:3306";
             $username = "root";
             $password = "";
             $dbname = "iti_db";
