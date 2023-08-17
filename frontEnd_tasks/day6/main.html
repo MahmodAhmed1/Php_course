@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="myImage" src="car.jpg" alt="car" style="width: 500px;">
+
+    <form id="myForm">
+        <label for="userName">User Name</label><br>
+        <input type="text" name="userName" id="userName">
+        <p id="nameValidation" style="color: red; font-size: 16px;"></p>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email">
+        <p id="emailValidation" style="color: red; font-size: 16px;"></p>
+        <button type="button" onclick="addNewUser()">Add User</button>
+        <button type="button" onclick="changeStyle()">Change Style</button>
+        <button type="button" onclick="changeImg()">Change image</button>
+        <button type="button" onclick="getData()">get data</button>
+    </form>
+    
+    <table id="myTable" class="oldStyle">
+        <tr>
+            <th>Name</th>
+            <th>Email</th> 
+        </tr>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>

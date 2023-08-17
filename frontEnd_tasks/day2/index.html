@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Document</title>
+        <style>
+            table,th,td,tr{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table</h1>
+        <table>
+        <thead>
+            <tr>
+            <th colspan="2">Fullname</th>
+            <th>Mobile</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td rowspan="2">mahmoud</td>
+            <td rowspan="2">ahmed</td>
+            <td>01096694106</td>
+            </tr>
+            <tr>
+            <td>01036694126</td>
+            </tr>
+            <tr>
+            <td rowspan="2">ali</td>
+            <td rowspan="2">ahmed</td>
+            <td>01234567853</td>
+            </tr>
+            <tr>
+            <td>01113791113</td>
+            </tr>
+        </tbody>
+        </table>
+        
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+
+        <h1>Google Map</h1>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13811.221610388655!2d31.0210709!3d30.071112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b979b7d1dd9%3A0x88f29d027c44f959!2z2YXYudmH2K8g2KrZg9mG2YjZhNmI2KzZitinINin2YTZhdi52YTZiNmF2KfYqg!5e0!3m2!1sar!2seg!4v1688549098545!5m2!1sar!2seg"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+
+        <h1>YouTube video player</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uYPbbksJxIg" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+        </iframe>
+
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br /> 
+
+        <h1>Registration form</h1>
+        <form action="#" method="get" style="border: 1px solid black; width: 50%; text-align: center;">
+            <fieldset>
+                <legend>Personal Information:</legend>
+                <label for="fullName">Full Name:</label>
+                <input type="text" name="fullName" id="fullName"><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password"><br>
+
+                <label for="age">Age:</label>
+                <input type="number" min="16" max="99" step="1" id="age"><br>
+
+
+                <label for="gender">Gender:</label><br>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Address Details:</legend>
+                <label for="Address">Address:</label>
+                <input type="text" name="Address" id="Address"><br>
+                <label for="city">City:</label>
+                <select name="city" id="city">
+                    <option value="cairo">cairo</option>
+                    <option value="giza">giza</option>
+                    <option value="aswan">aswan</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Sport</legend>
+                <label for="favSport">favourite sport</label><br>
+                <label for="swimming">Swimming</label>
+                <input type="checkbox" name="swim" id="swimming">
+                <label for="basketball">BasketBall</label>
+                <input type="checkbox" name="basketball" id="basketball">
+                <label for="tennis">Tennis</label>
+                <input type="checkbox" name="tennis" id="tennis">
+                <label for="hockey">Hockey</label>
+                <input type="checkbox" name="hockey" id="hockey">
+            </fieldset>
+            <br>
+            <br>
+            
+            <input type="submit" value="Submit form">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
