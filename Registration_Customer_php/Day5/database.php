@@ -6,7 +6,7 @@
         }
 
         public function connect($dbname){
-            $servername = "localhost:4306";
+            $servername = "localhost:3306";
             $username = "root";
             $password = "";
             // Create connection
